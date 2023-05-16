@@ -5,19 +5,19 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/Logo3.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="Klima Engineering and Services" />
+
+      <a id="logo" href="/"><img alt="Vue logo" class="logo" src="@/assets/Logo3.svg" width="125" height="125" /></a>
+
+      <HelloWorld id="helloworld" msg="Klima Engineering and Services" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/services">Services</RouterLink>
-        <RouterLink to="/about">Contact</RouterLink>
+        <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>
   </header>
-
   <RouterView />
 </template>
 
@@ -25,16 +25,25 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .logo {
+  width: 100%;
   display: block;
   margin: 0 auto 2rem;
+}
+#logo {
+  width: 19%;
+  display: block;
+  margin: auto;
 }
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 20px;
   text-align: center;
   margin-top: 2rem;
 }
@@ -61,7 +70,6 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
@@ -70,17 +78,26 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
-    place-items: flex-start;
+    place-items: center;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+  #helloworld {
+    width: 100%;
+  }
+}
+
+@media (hover: hover) {
+  #logo {
+    background-color: hsla(0, 0%, 100%, 0.2);
   }
 }
 </style>
