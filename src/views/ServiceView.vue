@@ -4,7 +4,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main>
-    <div>
+    <div class="service">
       <TheWelcome />
     </div>
   </main>
@@ -13,10 +13,15 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <style>
 @media (min-width: 1024px) {
+  main{
+    padding-left: 50px;
+  }
   .service {
-    min-height: 100vh;
-    display: flex;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-size: 20px;
   }
   body {
     display: flex;

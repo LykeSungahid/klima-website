@@ -94,6 +94,10 @@ h4 {
   font-size: 14px;
   font-weight: bold;
 }
+p {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
 #myCarousel {
   display: block;
   width: 65%;
@@ -112,7 +116,6 @@ h4 {
 }
 @media (min-width: 1024px) {
   p {
-    font-size: 25px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
   }
