@@ -14,7 +14,7 @@
           <div class="container">
             <h4><b>907 Borja Bldg. Jakosalem Street,</b></h4> 
             <h4><b>Barangay Zapatera, Cebu Citiy</b></h4> 
-            <p>Non distinctio dolorum est ipsam consectetur id aliquid asperiores qui voluptate vero. Et vero consectetur est laboriosam eius sed architecto consequatur est totam atque.</p> 
+            <p>Non distinctio dolorum est ipsam consecteturre id aliquid asperiores qui voluptate vero. Et vero consectetur est laboriosam eius sed architecto consequatur est totam atque.</p> 
           </div>
         </div>
 
