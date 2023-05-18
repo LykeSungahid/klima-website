@@ -21,7 +21,7 @@ const show5 = ref(false)
       <DocumentationIcon />
     </template>
     <template #heading><h3><a @click="show = !show">Installations</a></h3></template>
-     <Transition duration="550" name="nested">
+     <Transition duration=550 name="nested">
     <div v-if="show" class="outer">
       <div class="inner">
         Lorem ipsum dolor sit amet. Ut recusandae assumenda eum voluptas veniam in sunt perferendis est voluptatem aperiam id cumque Quis. 
@@ -36,7 +36,7 @@ const show5 = ref(false)
       <ToolingIcon />
     </template>
    <template #heading><h3><a @click="show1 = !show1">Project Design, Management and Estimates</a></h3></template>
-     <Transition duration="550" name="nested">
+     <Transition duration=550 name="nested">
     <div v-if="show1" class="outer">
       <div class="inner">
         Lorem ipsum dolor sit amet. Ut recusandae assumenda eum voluptas veniam in sunt perferendis est voluptatem aperiam id cumque Quis. 
@@ -51,7 +51,7 @@ const show5 = ref(false)
       <EcosystemIcon />
     </template>
     <template #heading><h3><a @click="show2 = !show2">Preventive Maintenance</a></h3></template>
-     <Transition duration="550" name="nested">
+     <Transition duration=550 name="nested">
       <div v-if="show2" class="outer">
         <div class="inner">
           Lorem ipsum dolor sit amet. Ut recusandae assumenda eum voluptas veniam in sunt perferendis est voluptatem aperiam id cumque Quis. 
@@ -66,7 +66,7 @@ const show5 = ref(false)
       <CommunityIcon />
     </template>
     <template #heading><h3><a @click="show3 = !show3">Ventilation</a></h3></template>
-      <Transition duration="550" name="nested">
+      <Transition duration=550 name="nested">
         <div v-if="show3" class="outer">
           <div class="inner">
             Lorem ipsum dolor sit amet. Ut recusandae assumenda eum voluptas veniam in sunt perferendis est voluptatem aperiam id cumque Quis. 
@@ -81,7 +81,7 @@ const show5 = ref(false)
       <SupportIcon />
     </template>
     <template #heading><h3><a @click="show4 = !show4">Architectural and Civil Works</a></h3></template>
-      <Transition duration="550" name="nested">
+      <Transition duration=550 name="nested">
         <div v-if="show4" class="outer">
           <div class="inner">
             Lorem ipsum dolor sit amet. Ut recusandae assumenda eum voluptas veniam in sunt perferendis est voluptatem aperiam id cumque Quis. 
@@ -96,7 +96,7 @@ const show5 = ref(false)
       <SupportIcon />
     </template>
     <template #heading><h3><a @click="show5 = !show5">Other Mechanical - Related Works</a></h3></template>
-      <Transition duration="550" name="nested">
+      <Transition duration=550 name="nested">
         <div v-if="show5" class="outer">
           <div class="inner">
             Lorem ipsum dolor sit amet. Ut recusandae assumenda eum voluptas veniam in sunt perferendis est voluptatem aperiam id cumque Quis. 
